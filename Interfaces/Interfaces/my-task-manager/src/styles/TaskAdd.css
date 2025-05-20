@@ -1,0 +1,90 @@
+.task-add-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #78c0e0 0%, #c2e9fb 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.task-add-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 10vw 40px 10vw;
+}
+
+.section-title {
+  color: #0a1a1e;
+  font-size: 2rem;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.task-form {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.task-input {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #0a1a1e;
+  border-radius: 8px;
+}
+
+.add-task-button {
+  background-color: #0a1a1e;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.add-task-button:hover {
+  background: #145a77;
+}
+
+.recent-tasks-section {
+  margin: 30px 0 0 0;
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.recent-tasks-section h3 {
+  color: #0a1a1e;
+  margin-bottom: 10px;
+}
+
+.recent-tasks-section ul {
+  list-style: disc inside;
+  color: #0a1a1e;
+}
+
+.last-task-info {
+  font-size: 16px;
+  color: #0a1a1e;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.back-button {
+  margin-top: 36px;
+  background-color: #0a1a1e;
+  color: white;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}

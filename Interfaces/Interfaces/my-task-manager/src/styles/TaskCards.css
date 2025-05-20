@@ -1,0 +1,32 @@
+.task-cards {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 20px;
+  background-color: rgba(10, 26, 30, 0.95);
+}
+
+.task-card {
+  width: 22%;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+}
+
+.task-text {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+}
